@@ -3,7 +3,7 @@ import java.util.List;
 
 public class CreateArrayListFromCollectionExample {
 
-    public void arrayListCombine () {
+    public void arrayListCombine() {
         List<Integer> firstFivePrimeNumbers = new ArrayList<>();
         firstFivePrimeNumbers.add(2);
         firstFivePrimeNumbers.add(3);
@@ -21,7 +21,7 @@ public class CreateArrayListFromCollectionExample {
         nextFivePrimeNumbers.add(29);
 
         //adding an entire collection to an ArrayList
-        firstFivePrimeNumbers.addAll(nextFivePrimeNumbers);
-        System.out.println(firstFivePrimeNumbers);
+        firstTenPrimeNumbers.addAll(nextFivePrimeNumbers);
+        System.out.println(firstTenPrimeNumbers);
     }
 }

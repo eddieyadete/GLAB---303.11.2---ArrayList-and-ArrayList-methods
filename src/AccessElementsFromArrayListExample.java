@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AccessElementsFromArrayListExample {
-    public static void main(String[] args) {
+    public void addingElementFromAnother() {
         List<String> topCompanies = new ArrayList<>();
         //check if an ArrayLIst is empty
         System.out.println("is the topCompanies list empty? : " + topCompanies.isEmpty());
